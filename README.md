@@ -10,12 +10,12 @@ Configuracíon del correo electronico: Tools->Email ——– server, port, user
 
 ````
 :global iptest IP-A-LA-CUAL-SE-LA-VA-SER-PING
+:global Servicio Nombre_Servicio
 :global email  correo@dominio.com
+:global Empresa Nombre_Empresa
 :global latenciAceitavel 20
 :global tempoEntrePings 2
 :global NumPings 10
-:global Empresa Nombre_Empresa
-:global Servicio Internet
 :global Asunto "Alarma! Monitor de ping a IP: $iptest Empresa: $Empresa del servicio $Servicio"
 ##################################################
 
